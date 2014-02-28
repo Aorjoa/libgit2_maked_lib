@@ -1,6 +1,7 @@
 What about this repository
 ==================================
 I using Mac OS X and implement libgit2 with git2go but i have problem in static library linker for exceute my software on another computer machines this repo i combine build with static lib.
+related with https://github.com/Aorjoa/git2go_static_lib
 
 libgit2 - the Git linkable library
 ==================================
