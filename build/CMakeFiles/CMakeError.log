@@ -1,0 +1,18 @@
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /Users/dekcom/Dropbox/repository/usb-data-storage/libgit2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1754200029/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTryCompileExec1754200029.dir/build.make CMakeFiles/cmTryCompileExec1754200029.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/dekcom/Dropbox/repository/usb-data-storage/libgit2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1754200029.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes  -fvisibility=hidden -fPIC -Wno-deprecated-declarations -DCHECK_FUNCTION_EXISTS=clock_gettime -arch i386 -arch x86_64   -o CMakeFiles/cmTryCompileExec1754200029.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-12.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec1754200029
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1754200029.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes  -fvisibility=hidden -fPIC -Wno-deprecated-declarations -DCHECK_FUNCTION_EXISTS=clock_gettime -arch i386 -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1754200029.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1754200029  -L/Users/dekcom/Dropbox/repository/usb-data-storage/libgit2/build/CMakeFiles/CMakeTmp/time.h  -lrt -Wl,-rpath,/Users/dekcom/Dropbox/repository/usb-data-storage/libgit2/build/CMakeFiles/CMakeTmp/time.h 
+ld: warning: directory not found for option '-L/Users/dekcom/Dropbox/repository/usb-data-storage/libgit2/build/CMakeFiles/CMakeTmp/time.h'
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec1754200029] Error 1
+make: *** [cmTryCompileExec1754200029/fast] Error 2
+
+

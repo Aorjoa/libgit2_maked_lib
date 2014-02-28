@@ -1,0 +1,2 @@
+/Users/dekcom/Dropbox/repository/usb-data-storage/libgit2/build/CMakeFiles/git2.dir
+/Users/dekcom/Dropbox/repository/usb-data-storage/libgit2/build/CMakeFiles/libgit2_clar.dir

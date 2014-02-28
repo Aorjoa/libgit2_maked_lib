@@ -5,15 +5,11 @@
 /trash-*.exe
 /libgit2.pc
 /config.mak
-*.o
-*.a
-*.exe
 *.gcda
 *.gcno
 *.gcov
 .lock-wafbuild
 .waf*
-build/
 build-amiga/
 tests/tmp/
 msvc/Debug/
@@ -24,7 +20,6 @@ msvc/Release/
 *.sdf
 *.opensdf
 *.aps
-*.cmake
 !cmake/Modules/*.cmake
 .DS_Store
 *~
